@@ -30,6 +30,7 @@ class ProdukController extends BaseController
 
     $dataForm = [
         'nama' => $this->request->getPost('nama'),
+        'deskripsi' => $this->request->getPost('deskripsi'),
         'harga' => $this->request->getPost('harga'),
         'jumlah' => $this->request->getPost('jumlah'),
         'created_at' => date("Y-m-d H:i:s")
@@ -56,6 +57,7 @@ class ProdukController extends BaseController
 
     $dataForm = [
         'nama' => $this->request->getPost('nama'),
+        'deskripsi' => $this->request->getPost('deskripsi'),
         'harga' => $this->request->getPost('harga'),
         'jumlah' => $this->request->getPost('jumlah'),
         'updated_at' => date("Y-m-d H:i:s")

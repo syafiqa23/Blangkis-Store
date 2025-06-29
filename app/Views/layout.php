@@ -11,13 +11,13 @@ if (uri_string() != "") {
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-    <title>Tables / Data - NiceAdmin Bootstrap Template</title>
+    <title>Tables / Data - Blangkis Store</title>
     <meta content="" name="description">
     <meta content="" name="keywords">
 
     <!-- Favicons -->
-    <link href="<?php echo base_url() ?>NiceAdmin/assets/img/favicon.png" rel="icon">
-    <link href="<?php echo base_url() ?>NiceAdmin/assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+    <link href="<?php echo base_url() ?>NiceAdmin/assets/img/logo_blangkon.jpg" rel="icon">
+    <link href="<?php echo base_url() ?>NiceAdmin/assets/img/logo_blangkon.jpg" rel="apple-touch-icon">
 
     <!-- Google Fonts -->
     <link href="https://fonts.gstatic.com" rel="preconnect">

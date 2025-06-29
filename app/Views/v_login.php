@@ -20,8 +20,8 @@ $password = [
 
                 <div class="d-flex justify-content-center py-4">
                     <a href="index.html" class="logo d-flex align-items-center w-auto">
-                        <img src="<?php echo base_url() ?>NiceAdmin/assets/img/logo.png" alt=""style="height: 40px;">
-                        <span class="ms-2" style="font-weight: bold; font-size: 20px;">Syacos Store</span>
+                        <img src="<?php echo base_url() ?>NiceAdmin/assets/img/logo_blangkon.jpg" alt="" style="height: 40px;">
+                        <span class="ms-2" style="font-weight: bold; font-size: 20px;">Blangkis Store</span>
                     </a>
                 </div><!-- End Logo -->
 
@@ -66,6 +66,11 @@ $password = [
                         <div class="col-12">
                             <?= form_submit('submit', 'Login', ['class' => 'btn btn-primary w-100']) ?>
                         </div>
+                        <a href="<?= base_url('auth/google') ?>" class="btn btn-danger">
+                            <i class="bi bi-google"></i> Login dengan Google
+                        </a>
+
+                        <p class="text-center small">Belum punya akun? <a href="<?= base_url('register') ?>">Daftar di sini</a></p>
 
                         <?= form_close() ?>
 

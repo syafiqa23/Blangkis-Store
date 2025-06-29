@@ -25,6 +25,8 @@ if (session()->getFlashData('success')) {
                 <div class="card-body">
                     <img src="<?php echo base_url() . "NiceAdmin/assets/img/" . $item['foto'] ?>" alt="..." width="300px">
                     <h5 class="card-title"><?php echo $item['nama'] ?><br><?php echo number_to_currency($item['harga'], 'IDR') ?></h5>
+                    <p><strong>Kategori:</strong> <?= $item['nama_kategori'] ?? 'Tidak dikategorikan' ?></p>
+                    <p class="card-text"><?= substr($item['deskripsi'], 0, 500) ?>...</p>
                     <button type="submit" class="btn btn-info rounded-pill">Beli</button>
                 </div>
             </div>
